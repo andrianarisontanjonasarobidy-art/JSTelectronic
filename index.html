@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="fr">
+<meta charset="UTF-8">
+<meta name="viewport" content="width device-width, initial-scale=1">
+<head>
+	<title>produit</title>
+	<style type="text/css">
+		*{
+			box-sizing:border-box;
+			margin:0px;
+			padding:0px;}
+			body{
+				margin: 0;
+				padding: 0;
+				background: #f4f4f4;
+			}
+		h1{
+			text-align:center;
+			color:darkblue;}
+		h2{
+			text-align:center;
+			margin-top:10%;
+			margin-bottom:20px;
+			font-size:30px;
+			}
+		h4{ 
+			font-size:10px;
+			}
+		header{
+			position:fixed;
+			width:100%;
+			padding:0px;
+			margin: 0;
+			background-color:white;
+			box-shadow: 0px 5px 0px 0px black;
+		}
+		main{
+			margin-top:300px;
+			background:#f4f4f4;}
+		footer {
+			text-decoration:none;
+			text-align:center;
+			background-color: black;
+			color:white;
+			}
+		footer a{
+			font-size:20px;
+			text-align:center;
+			color:white;
+			text-decoration:none;}
+		header img{
+			width:100px;
+			height:80px;
+			}
+		.menu{
+			display:flex;
+			flex-direction:column;
+			justify-content:space-between;
+			align-items:center;}
+		.nav-bar{
+			width: 100%;
+			display:flex;
+			justify-content:space-evenly;
+			background-color:Gainsboro;
+			border-bottom: 2px solid black ;
+			border-top:2px solid black ;
+			}
+		.nav-bar a{
+			width: 25%;
+			font-size: 	15px;
+			text-align: center;
+			text-decoration:none;
+			background-color:Gainsboro;
+			padding: 20px;
+			color:black;
+			border:1px solid darkblue;}
+		nav .active{
+			background:DarkCyan;
+			color: white;
+		}
+		.input-cnt{
+			display: flex;
+			align-items: center;
+			margin:10px 10px 10px 10px;
+			}
+		.input-cnt i{
+			padding: 10px;
+			text-align:center;
+			background:lightblue;
+			border-top-left-radius:20px;
+			border-bottom-left-radius:20px;
+			height: 50px;
+		}
+		.icon{
+			padding: 0px;
+		}
+		.input-cnt input{
+			height: 50px;
+			padding: 15px;
+			border:1px solid lightblue;
+			border-top-right-radius:20px;
+			border-bottom-right-radius:20px;}
+		summary{
+			margin-left:20%;
+			margin-top:5%;
+			margin-right:20%;
+			font-size:25px;
+			background-color:lightblue;
+			box-shadow: 0 0 10px black;
+			padding:2%;}
+		details ul a{
+			margin:20%;
+			font-size:20px;
+			text-decoration:none;
+			color:#6295ED;}
+		details ul{
+			list-style-type:none;}
+		 ul li{
+			margin-left:50px;
+			margin-top:15px;
+			font-size:20px;}
+		main img{
+			display:block;
+			margin-left:auto;
+			margin-right:auto;
+			width:300px;
+			height: 300px;	
+		}
+		main p{
+			text-align:center;
+			font-size:25px;}
+		section ul{
+			color:#66CDAA;}
+		.slider{
+			width:100%;
+			overflow:hidden;}
+		.slides{
+			display:flex;
+			width:80%;
+			animation:slide 10s infinite;}
+		.slides img {
+			width: 60%;
+			padding:50px;
+			padding-left:px;
+			object-fit: cover;
+			border: none;
+			background-color:white;
+			border-radius: 20px 20px 20px 20px;
+			margin-right:30px;
+			box-shadow: 15px 15px 15px gray;}
+		@keyframes slide{
+			0% {transform: translateX(0);}
+			75%  { transform: translateX(-300%); }
+			75%  { transform: translateX(-300%); }
+			75%  { transform: translateX(-300%); }
+			100% { transform: translateX(0);}}
+		@media(min-width:768px){
+			.input-cnt i{
+				min-width:10%;
+			}
+			header{
+				padding: 0px;
+			}
+			.input-cnt{
+				padding: 10px 10px 10px 10px;
+				margin:0px 10px 0px 10px;}
+			.input-cnt input{
+				min-width:40%;	
+			}
+			.input-cnt h4{
+				font-size: 20px;
+			}
+			main img{
+				width: 35%;
+				height: 350px;	
+			}
+			summary{
+				margin-left:20%;}
+			.nav-bar a{
+				padding:20px 50px 20px 50px;}
+			.slides img{
+				width:500px;
+				height:250px;
+			}
+			}
+		
+	</style>
+</head>
+<body>
+	<header>
+	<h1>JST-ELECTRONIC</h1>
+		<div class="menu">
+			<img src="Image/35.jpeg">
+		</div>
+	<nav>
+		<div class="nav-bar">
+			<a href="index.html" class="active"> 🏠Acceuil</a>
+			<a href="produit.html"> 💻Produit</a>
+			<a href="contact.html"> ☎Contact</a>
+			<a href="about.html"> 🎛About Us</a>
+		</div>
+	</nav>
+			<div class="input-cnt">
+				<i class="icon"> 🔍 Search</i>
+				<input type="text" placeholder="Search here...">
+				<h4>📞<u>Téléphone:</u> +261 38 92 935 62</h4>
+			</div>
+	</header>
+			<hr>
+<main>
+	<img src="Image/Font1.jpg"	>
+	<p>Veuiller voir nos marques de produits ci-dessous<br>
+						⬇⬇⬇</p>	
+		<details>
+		<summary>Téléphone</summary>
+				<ul>
+				<li><a href="redmi.html">✔Redmi</a></li>
+				<li><a href="samsung.html">✔Samsung</a></li>
+				<li><a href="google.html">✔Google Pixel</a></li>
+				<li><a href="iphone.html">✔Iphone</a></li>
+				</ul>
+		</details>
+		<details>
+		<summary>Ordinateurs</summary>
+				<ul>
+					<li><a href="asus.html">✔Asus</a></li>
+					<li><a href="hp.html">✔HP</a></li>
+					<li><a href="dell.html">✔Dell</a></li>
+				</ul>
+		</details>
+		<details>
+		<summary>Accessoires</summary>
+				<ul>
+					<li><a href="chargeur.html">✔Chargeur</a></li>
+					<li><a href="ecouteur.html">✔Ecouteur</a></li>
+					<li><a href="casque.html">✔Casque</a></li>
+				</ul>
+		</details>
+	<section>
+		<h2>🔴Nos super tendances</h2>
+		<p><ul>
+			<li>IPHONE 16 Pro Max</li>
+			<li>SAMSUNG GALAXY S23 PLUS</li>
+			<li>Dell latitude Notebook PC</li>
+			<li>GOOGLE PIXEL 9</li>
+			<li>Casque bleutooth gaming</li>
+			<li>Kit bleutooth LENOVO</li>
+		</ul></p>
+	</section><br><br><hr><br><br>
+	<section>
+<div class="slider">
+<div class="slides">
+	<img src="image/D.jpg">
+	<img src="image/6.jpg">
+	<img src="image/Dell1.jpg">
+	<img src="image/U.jpg">
+	<img src="image/Microcasque.jpg">
+	<img src="image/Ecouteur4.jpg">
+</div>
+</div>
+	</section>
+	<footer>
+		<p>© copyright 2026</p><br>
+		<a href="contact.html">Conatct</a>
+		<a href="about.html">About us</a><br>
+		<a href="privacy.html" id="pv">Privacy</a></p>
+	</footer>

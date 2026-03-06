@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>produit</title>
+	<style type="text/css">
+		*{ 
+			box-sizing:border-box;
+			margin:0;
+			padding:0;}
+		html, body{
+			margin:0;
+			padding: 0;			
+		}
+		h1{
+			text-align:center;
+			color:darkblue;}
+		h2{
+			text-align:center;
+			color:darkblue;}
+		h3{
+			text-align:center;
+			margin-top:30px;
+			margin-bottom:20px;
+			font-size:20px;
+			}
+		h4{
+			font-size: 10px;
+			}
+		header{
+			left: 0;
+			position:fixed;
+			width:100%;
+			background-color:white;
+			box-shadow: 0px 5px 0px 0px black;
+		}
+		main{
+			margin-top:200px;
+			background:white;
+			margin:200px 10px 0 10px;
+		}
+	.j{
+		display:flex;
+		flex-direction:row;
+		justify-content:space-evenly;
+		align-items:center;
+		box-shadow: 0 0 5px rgb(41, 41, 92);
+		border: 1px solid skyblue;
+		background-image: linear-gradient(to right, white, beige);
+		border-radius:100px 20px 100px 20px;
+		margin-bottom:20px;
+		}
+	.s{
+		display:flex;
+		justify-content:space-evenly;
+		align-items:center;
+		box-shadow: 0 0 5px rgb(41, 41, 92);
+		border: 1px solid skyblue;
+		background-image: linear-gradient(to right, beige, beige, white);
+		border-radius:20px 100px 20px 100px;
+		margin-bottom:20px;
+		}
+	.t{
+		display:flex;
+		justify-content:space-evenly;
+		align-items:center;
+		box-shadow: 0 0 5px rgb(41, 41, 92);
+		border: 1px solid skyblue;
+		background-image:linear-gradient(to right, white, beige);
+		border-radius:100px 20px 100px 20px;
+		}
+	.j img{
+		border-radius:50%;
+		}
+	.s img{
+		border-radius:50%;
+		}
+	.t img{
+		border-radius:50%;
+		}
+	p{
+		font-family:times new roman;
+		font-size:20px;
+		margin-top:50px;
+		}
+	.image img{	
+		border-radius:50%;
+		align-items: center;
+		margin-top:100px;
+		border: 15px solid skyblue;
+		width: 200px;
+		height: 200px;
+		box-shadow: 0 0 10px black;
+		}
+	header img{
+		width:100px;
+		height:80px;
+		}
+	.menu{
+		display:flex;
+		flex-direction:column;
+		justify-content:space-between;
+		align-items:center;}
+	.nav-bar{
+			width: 100%;		
+			display:flex;
+			background-color:Gainsboro;
+			border-bottom: 2px solid black ;
+			border-top:2px solid black ;
+			}
+		.nav-bar a{
+			width: 25%;
+			font-size: 	15px;
+			text-align: center;
+			text-decoration:none;
+			background-color:Gainsboro;
+			padding: 20px;
+			color:black;
+			border:1px solid darkblue;}
+	nav .active{
+		background:DarkCyan;
+		color: white;
+	}
+	.input-cnt{
+		display:flex;
+		align-items: center;
+		margin:10px 10px 10px 10px;
+		}
+	.input-cnt i{
+		padding:10px;
+		text-align:center;
+		background:lightblue;
+		border-top-left-radius:20px;
+		border-bottom-left-radius:20px;
+		height: 50px;
+		}
+	.input-cnt input{
+		padding:10px;
+		border:1px solid lightblue;
+		border-top-right-radius:20px;
+		border-bottom-right-radius:20px;
+		height: 50px;
+		}
+	footer p{
+		font-family:cursive;
+		color:green;
+		font-size:30px;
+		text-align:center;}
+	@media(min-width:768px){
+		.input-cnt{
+		display: flex;
+		align-items: center;	
+		padding: 10px 10px 10px 10px;
+		margin: 0px 10px 0px 10px;	
+		}
+		.input-cnt h4{
+				font-size: 20px;}
+		.input-cnt i{
+		min-width:10%;}
+		.input-cnt input{
+		min-width:40%;}
+		.nav-bar a{
+		padding:20px 50px 20px 50px;}
+		main{
+		margin-top:200px;
+	}
+		h2{
+		font-size: 40px;	
+		}
+		.image img{
+		width: 300px;
+		height: 300px;
+		}}
+	</style>
+</head>
+<body>
+	<header>
+	<h1>JST-ELECTRONIC</h1>
+	<div class="menu"><img src="Image/35.jpeg"></div>
+	<nav>
+		<div class="nav-bar">
+			<a href="index.html"> 🏠Acceuil</a>
+			<a href="produit.html"> 💻Produit</a>
+			<a href="contact.html"> ☎Contact</a>
+			<a href="about.html" class="active"> 🎛About Us</a>
+		</div>
+	</nav>
+			<div class="input-cnt">
+				<i class="icon"> 🔍 Search</i>
+				<input type="text" placeholder="Search here...">
+				<h4>📞<u>Téléphone:</u> +261 38 50 054 67</h4>
+			</div>
+	</header>
+			<hr>
+<main>
+	<div class="image">           
+	<center><img src="image/35.jpeg" alt="34.jpg"></center>
+	</div>
+	<h2>A propos de "JST-ELECTRONIC"</h2>
+	<p>
+	<b><u>JST ELECTRONIC</u></b> est un site pour pouvoir vendre en ligne les matériels ou les outils en Informatiques,
+	créer par les trois hommes suivants:</p><br><br><br><br>
+	<div class="j">
+	<div><img src="image/Jonah.jpg" height="300px" width="240px"></div>
+	<div>
+	<h3>RALAIVELONJAFY Heriniaina jean Jonah</h3>
+	<i>(Etudiant à l'Université Saint Vincent<br>
+	de Paul Akamasoa)</i></div>
+	</div>
+	<div class="s">
+	<div>
+	<img src="image/Bidy.jpg" height="300px" width="240px"></div>
+	<div><h3>ANDRIANARISON Tanjoniaina Harena Sarobidy</h3>
+	<i>(Etudiant à l'Université Saint Vincent<br>
+	de Paul Akamasoa)</i></div>
+	</div>
+	<div class="t">
+	<div>
+	<img src="image/Tsinjo.jpg" height="300px" width="240px"></div>
+	<div><h3>RANAIVOSON Henintsoa Tsinjo</h3>
+	<i>(Etudiant à l'Université Saint Vincent<br>
+	de Paul Akamasoa)</i></div>
+	</div>
+	</main>
+<footer>
+	<marquee behavior="" direction=""><p>Merci beaucoup pour votre visite!</p></marquee>
+	<br><br><br>	
+</footer>
+	</body>
+	</html>
+	
